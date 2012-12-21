@@ -1,0 +1,78 @@
+chemosensors 0.7.7
+==================
+
+* This version was submitted to CRAN. The only change from version 0.7.6 is that 
+  the documentation has been updated to meet the CRAN policies.
+
+chemosensors 0.7.6
+==================
+
+* This version was used to perform calculations for the article #2.
+
+chemosensors 0.7.5
+==================
+
+* Parameter `snf` for SensorNoiseModel has changed its default value
+  from `c(1, 1, 0.2)` to `c(1, 1, 1)`.
+* Method `predict` for class `SensorNoiseModel` has been corrected.
+  
+chemosensors 0.7.4
+==================
+
+* Most of plot method have been rewritten in a ggplot2 manner.
+* Fixed the demo `SensorAffinity`, particularly, the set of gas classes must 
+  contain more gas classes.
+* Class `Scenario` rewritten. Not the class object doesn't store a data.frame 
+  of concentration matrix. That means slot `df` is depreciated. Instead, method
+  `sdata.frame` constructs the data.frame based on new slots `T`, `nT`, `V` and `nV`.
+
+chemosensors 0.7.3
+==================
+* Added CITATION file.
+
+chemosensors 0.7.1
+==================
+
+* Reorganized the way the package loads the datasets. Now DESCRIPTION file has line 
+  `LazyData: yes`.
+* All the datasets are unified the the list structure. That means you get a list 
+  `UNIMANdistr` by loading dataset `UNIMANdistr.RData` by command `data(UNIMANdistr)`.
+  Updated datasets: `UNIMANdnoise.RData`, `UNIMANsorption.RData`, `UNIMANshort.RData`,
+  `UNIMANsnoise.RData` and `UNIMANtransient.RData`.
+
+chemosensors 0.6.1
+==================
+
+* The internal development of the packaged is organized in the 'devtools' stype.
+
+chemosensors 0.5.5
+==================
+
+* Added two new data models in 'SensorDataModel' class: 'broken-stick' and 'ispline'.
+* The default data model is set to 'ispline'.
+* The default value of 'Knonlin' parameter is set to 0.7 (adjusted for AC binary mixtures).
+* Function 'getISplineDesign' is replaced by 'getIQSplineDesign' (with a custom 
+  formula) when the spline basis functions are quadratic. Speed up by factor 2.
+
+chemosensors 0.5.4
+==================
+
+* Updated dataset 'UNIMANdnoise'; components in variable 'dspace' are ordered
+  according to the importance values in variable 'ndvar'.
+* Updated documentation for all classes; added documentation for datasets.
+* Added datasets 'UNIMANtransient'.
+* Introduced method 'affinity' to compute the affinity charcacteristic of sensors.
+* Added a new demo VirtualSensors.
+
+chemosensors 0.5.3
+==================
+
+* Added the file NAMESPACE.
+* Added the classes 'DriftCommonModel' and 'DriftNoiseModel'.
+  The latter class is a sub-class of the class 'SensorArray'.
+
+chemosensors 0.5.2
+==================
+
+* Initial import includes basic classes, two demos, tests.
+
