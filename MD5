@@ -1,6 +1,6 @@
-16aac03db9a61eb921a359c6513c2e45 *DESCRIPTION
+0acd8258c55d5a5d8626e19536d866fd *DESCRIPTION
 5ded5a02d3290fa6a63e826ce22b1192 *NAMESPACE
-7b385e8a54280ecb8f95b1c91ec3973a *NEWS
+56168f3364491ee2ffb2f9ea51c49530 *NEWS
 e568767213a6a8f49fb7fdefe91aaf21 *R/ChemosensorsClass.R
 bb6f4337e7e5998f0435e8590aeac32e *R/ChemosensorsClassMethods.R
 258cfaece4b84f20a458d3f69fb645c8 *R/ConcNoiseModelClass.R
@@ -16,12 +16,12 @@ fdaf44b2e02abeeb6ea5b83af7ba23be *R/SensorArrayClassMethods.R
 9d324b68b3af9ab1bfab14dbd0fe8dbb *R/SensorDynamicsClass.R
 8cf40853fbcd6a5483d4d92e94b6e1b8 *R/SensorDynamicsClassMethods.R
 df2d004a7164a0f28ac2a90a4191b515 *R/SensorModelClass.R
-f38ee9126ab70344c3c6024c4491b069 *R/SensorModelClassMethods.R
+8d0339bed58a0f0134bffd632b50e674 *R/SensorModelClassMethods.R
 cfbf6dd4c59b78215e2980dd27848de2 *R/SensorNoiseModelClass.R
 675325f97000e53b5c0e966a6fa63a96 *R/SensorNoiseModelClassMethods.R
 adcb26f09fb5988a0efed469a70f189e *R/SorptionModelClass.R
 1ec61840eb2aa99c294c4a9b4ec7eb3f *R/SorptionModelClassMethods.R
-3f82cebf4b190afd170f4dd3f049a978 *R/affinity.lib.R
+f4eedbcdedcb439dc22d52877cf2f512 *R/affinity.lib.R
 f7780be33923978bb7dd3d17cf134c68 *R/conc.lib.R
 3a9e5ca8f4c1c72d6be9f117feaaee3c *R/datasets.R
 7b2f7ec18628a10545b2519907eaba5e *R/demos.R
@@ -47,7 +47,7 @@ b3a27be6fb02600934a42c7b471824d0 *data/UNIMANdnoise.RData
 c8c00717757bef1c948d7c2a5077bd1b *demo/SensorArrayNoise.R
 149b7f6adcd6a9f82aa39dae394b0915 *demo/SensorNoise.R
 fad3e228f5e62a05ebe8e35d97fff3eb *demo/VirtualSensors.R
-dae33c756e2eb41c949da9c92c6b19db *inst/CITATION
+6ded07c566042729e151d0ca96215b23 *inst/CITATION
 78a517a66297a59e24379cc0266f1a01 *inst/examples/ConcNoiseModel-class.R
 729e38c5a5cbde6d4215381f4e044051 *inst/examples/DriftNoiseModel-class.R
 acc74c180696c8b349279f5e8039d3af *inst/examples/Scenario-class.R
@@ -70,8 +70,6 @@ e5218bad11b9cd1804482143c3b71661 *inst/examples/UNIMANsorption-data.R
 da0dc4ef3d3c2a72c00552bf19e8efe2 *inst/examples/sdata2df-method.R
 6dbea8d454e0b93ef9d9cb4bb6eba690 *inst/examples/sdata2feature-method.R
 72570198d9c85d46156a53816b5b9c7a *inst/examples/sdata2pulse-method.R
-0e1b7468c86a8797847bcf1ae7fdbe99 *inst/tests/failed-tests.R
-06ab5eafad8537ae181957a1ffa62ca3 *inst/tests/incorrect-tests.R
 4e00fcf2191f2bd920f62a13f250354f *inst/tests/test-ConcNoiseModel.R
 1553a6d071b73547e65b5dfdd1151133 *inst/tests/test-DriftNoiseModel.R
 2bf493199f776d05053a0d8853685734 *inst/tests/test-Scenario.R
